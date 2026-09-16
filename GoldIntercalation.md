@@ -22,15 +22,8 @@ Hao Yan, and H. Tom Soh, Small 2009
 * [Procedure](#procedure)
 * [Expected Results](#expected-results)
 * [Troubleshooting](#troubleshooting)
-* [References](#references)
 
 ## Materials & Instrumentation
-
-> This section should contain an unordered list of required reagents, materials, instrumentation, software, or other requirements needed for the protocol.  When possible, these should be written as generically as possible, rather than specifying a particular vendor or brand-name (except in cases where it is only available via one vendor, it is believed by the protocol author that only a given vendor has appropriate quality, other other circumstances that dictate a particular vendor).  A vendored version may be provided as an example to help guide the user.
-
-> Explanatory text, briefly summarizes why a particular resource is needed, or helpful notes on obtaining or configuring resources, are acceptable and appreciated.  However, detailed set-up or preparation procedures should appear in [Procedure](#procedure), below.
-
-> When useful, images may be included through link or direct embedding. Directly embedded images should be in `.png` format, saved in the same directory as the protocol file, preferably with a filename that relates to the protocol.
 
 * 2 Designated 1L glass beakers (should not be used for other procedures, e.g. staining, cleaning other things)
 * Orbital shaker (CLS6780NP Fisher or similar)
@@ -74,7 +67,7 @@ If the chips have surface aggregates under AFM in following measurements, either
 
 If the chips are unevenly coated in MUA, the mixing may be insufficient or surface not activated fully during UV Ozone cleaning.
 
-In general, examine the chips prior to reaction by AFM and post cleaning.
+In general, examine the chips prior to reaction by AFM and post cleaning if it is unclear where contaminants are introduced.
 
 ## Copyright
 
