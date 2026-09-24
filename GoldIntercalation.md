@@ -4,7 +4,7 @@
 
 ### Purpose
 
-> This protocol is intended to take a PEGylated gold surface and produce a chip with a new reagent reacted with the surface. All handling best practices apply (see Materials and Methods for more information). This is a protocol designed for feasibility studies and very low volume (<10 chips/week) work.
+> This protocol is intended to take an unmodified gold surface and produce a chip with thiolated-polymer reacted with the surface. The chip size is taken to be approximately 1cm square when container volumes were selected. All handling best practices apply (see Materials and Methods for more information). This is a protocol designed for feasibility studies and very low volume (<10 chips/week) work.
 
 ### Citation
 
@@ -14,7 +14,7 @@ Aren E. Gerdon, Seung Soo Oh, Kuangwen Hsieh, Yonggang Ke,
 Hao Yan, and H. Tom Soh, Small 2009
 
 ### Version
-0.0.0
+0.0.1
 
 ## Table of Contents
 
@@ -25,28 +25,31 @@ Hao Yan, and H. Tom Soh, Small 2009
 
 ## Materials & Instrumentation
 
-* 2 Designated 1L glass beakers (should not be used for other procedures, e.g. staining, cleaning other things)
+* 3 designated glass petri dishes (should not be used for other procedures, e.g. staining, cleaning other things)
 * Orbital shaker (CLS6780NP Fisher or similar)
 * DI water (18.3MOhm/MilliQ or similar)
 * 2L Ethanol (459828 Sigma or similar - chromatography grade/99.5% pure, anhydrous)
+* Glacial acetic acid (695092 Sigma or similar)
 * Microbalance and weigh paper
 * UV Ozone cleaner (Harrick PDC-32G or similar, for preparing nanosurfaces)
-* PFTE slide holder (https://www.amazon.com/dp/B0FNLMYHH6 or similar)
-* 11-mercaptoundecaonic acid (450561 Sigma)
+* PFTE slide holder or tweezers (https://www.amazon.com/dp/B0FNLMYHH6 or similar)
+* 11-mercaptoundecaonic acid, 98% pure (674427 Sigma) OR Thiol-PEG5K-Carboxyl,  (757845 Sigma)
 * Storage container for chips (could be a pipette tip box)
 * Dessicator chamber (Secador or similar)
 
 ## Procedure
 
-1. Using the UV Ozone cleaner, clean the chips for 20 minutes. Prior to UV cleaning the chips should be visually clean, if not, rinse with DI water and dry using nitrogen first. 
-2. Place the chip or chips in the PFTE slide holder for transport. 
-3. Fill a 1L beaker with 1L DI water and rinse the chips by submerging and rotating for 30 seconds. Take care to use motions which will not dislodge the chips from the holder. If necessary, an orbital shaker can be used.
-4. Fill a 1L beaker with ethanol, but only enough to cover the chips. Submerge the chips and mix, allowing any remaining water wicked into the holder to diffuse into the ethanol. Leave in the ethanol until mixing is complete, continue while soaking.
-5. Empty the first beaker of water, rinse it briefly, and air dry using nitrogen.
-6. Use the first beaker to create a 5mM solution of 11-mercaptoundecanoic acid in 500mL ethanol: 545 milligrams of MUA powder into 500mL ethanol. Mix using an orbital shaker until the powder is completely dissolved. Turn the orbital shaker off once done.
-7. Remove the chips from the ethanol in the second beaker and place into the 5mM 11-mercaptoundecanoic acid. Incubate overnight or at least 12 hours at room temperature, covered, with the orbital shaker on at 60rpm. Ensure that the chips are not exposed to air during mixing -- if there is air mixing in at the top or the chips are exposed during shaking, slow the shaker down.
+1. Using the UV Ozone cleaner, clean the chip(s) for 20 minutes. Prior to UV cleaning the chips should be visually clean, if not, rinse with DI water and dry using nitrogen first. 
+2. Place the chip or chips in the PFTE slide holder for transport, or if using tweezers, place the active side facing up into a petri dish. 
+3. Rinse the chips by submerging in DI water and agitating by hand for 30 seconds. Take care to use motions which will not dislodge the chips from the holder. If necessary to keep chips secure, an orbital shaker can be used.
+4. Fill a petri dish with ethanol, submerge the chips and mix, allowing any remaining water wicked into the holder to diffuse into the ethanol. Leave in the ethanol until mixing is complete, continue while soaking. If chips are placed directly onto the petri dish, be sure that there is not water trapped underneath the chips at the interface.
+5. In the third petri dish, combine 10mL ethanol with 100uL of glacial acetic acid, using a P1000 pipette tip to slowly aspirate the viscous solution.
+6-MUA. If an MUA surface is desired: create a 5mM solution of 11-mercaptoundecanoic acid in 10mL ethanol, 1% acetic acid: 11 milligrams of MUA powder into the third petri dish. Mix using an orbital shaker until the powder is completely dissolved. Turn the orbital shaker off once done.
+<b>OR</b>
+5-PEG. If a PEG surface is desired: create a 1mM solution of Poly(ethylene glycol) 2-mercaptoethyl ether acetic acid by adding 50mg of Thiol-PEG to the third petri dish. Mix using an orbital shaker until the powder is completely dissolved. Turn the orbital shaker off once done.
+6. Remove the chips from the ethanol in the second petri dish and place into the third dish containing either MUA or PEG dissolved in ethanol + 1% acetic acid. Incubate overnight or at least 12 hours at room temperature, covered, with the orbital shaker on at 60rpm. Ensure that the chips are not exposed to air during mixing -- if there is air mixing in at the top or the chips are exposed during shaking, slow the shaker down.
 
-8. The next day, remove the chips from the reaction solution. Fill a 1L beaker with enough ethanol to rinse the chips and do so three times, using fresh ethanol each time.
+8. The next day, remove the chips from the reaction solution. Fill a petri dish with enough ethanol to rinse the chips and do so three times, using fresh ethanol each time.
 9. Transfer the chips to a clean and dry storage container one at a time. Dry the chips with nitrogen flow prior to placing in the storage container. This can be done either using the PFTE slide holder and blowing the air downwards into the holder (so the chips are not blown out of the holder! This may risk chips blowing out of the holder if the flow is too fast or the holder is not suitable!) or by blowing on the chips one by one during transfer. Never hold chips by their active surfaces, always use a holder or, if necessary, gloved hands on the edges of the chip.
 
 ### Characterization (Optional, not a standalone protocol)
@@ -58,7 +61,7 @@ Hao Yan, and H. Tom Soh, Small 2009
 
 ## Expected Results
 
-Chips should be able to coordinate multivalent cations (i.e. Mg2+) for strong deposition of DNA origami onto gold surfaces which already contain PEG.
+Chips should be able to coordinate multivalent cations (i.e. Mg2+) for strong deposition of DNA origami onto gold surfaces. The MUA may not be competent for electronic actuation but the Thiol-PEG5k may be.
 
 ## Troubleshooting
 If the chips come out with visible precipitate on them, the most likely culprit is residual water wicked into the slide holder. Drying the slides with nitrogen prior to reaction may remove the water from the interfaces.
